@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg2"
+   viewBox="0 0 904 832.56"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   width="100%"
+   height="100%"
+   sodipodi:docname="equilateral_triangle.svg">
+  <defs
+     id="defs36">
+    <linearGradient
+       id="linearGradient7401"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#f2f2f2;stop-opacity:1;"
+         offset="0"
+         id="stop7403" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient5929"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop5931" />
+    </linearGradient>
+    <marker
+       inkscape:stockid="Arrow2Mstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow2Mstart"
+       style="overflow:visible">
+      <path
+         id="path3813"
+         style="fill-rule:evenodd;stroke-width:0.62500000;stroke-linejoin:round"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         transform="scale(0.6) translate(0,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow2Mend"
+       style="overflow:visible;">
+      <path
+         id="path3816"
+         style="fill-rule:evenodd;stroke-width:0.62500000;stroke-linejoin:round;"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         transform="scale(0.6) rotate(180) translate(0,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleInL"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="TriangleInL"
+       style="overflow:visible">
+      <path
+         id="path3922"
+         d="M 5.77,0.0 L -2.88,5.0 L -2.88,-5.0 L 5.77,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt"
+         transform="scale(-0.8)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Lstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow2Lstart"
+       style="overflow:visible">
+      <path
+         id="path3807"
+         style="fill-rule:evenodd;stroke-width:0.62500000;stroke-linejoin:round"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         transform="scale(1.1) translate(1,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lend"
+       style="overflow:visible;">
+      <path
+         id="path3792"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lstart"
+       style="overflow:visible">
+      <path
+         id="path3789"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt"
+         transform="scale(0.8) translate(12.5,0)" />
+    </marker>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient7401"
+       id="linearGradient7405"
+       x1="528.24573"
+       y1="-180.82674"
+       x2="637.82227"
+       y2="-180.82674"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="935"
+     inkscape:window-height="707"
+     id="namedview34"
+     showgrid="false"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:zoom="0.70710678"
+     inkscape:cx="467.91463"
+     inkscape:cy="413.36495"
+     inkscape:window-x="-2"
+     inkscape:window-y="38"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg2" />
+  <title
+     id="title4074">Equilateral Triangle</title>
+  <rect
+     style="fill:url(#linearGradient7405);fill-opacity:1.0;stroke:#000000;stroke-width:2.55088138999999980;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+     id="rect3864-4-8"
+     width="107.02567"
+     height="218.31932"
+     x="529.52118"
+     y="-289.98639"
+     transform="matrix(-1.0773351e-4,0.99999999,-0.47746509,0.87865072,0,0)"
+     ry="0" />
+  <path
+     id="path2997"
+     d="M 35.041221,468.43099 H 805.27681"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000;stroke-width:3.31915474;stroke-linecap:round" />
+  <path
+     id="path2997-4-5"
+     d="M 729.85826,361.05047 34.289349,467.25436"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000;stroke-width:2.0305233;stroke-linecap:round"
+     sodipodi:nodetypes="cc" />
+  <g
+     style="font-family:Verdana"
+     transform="matrix(0.96209499,0,0,0.96216832,-3.9141129,190.78572)"
+     id="g3958" />
+  <metadata
+     id="metadata32">
+    <rdf:RDF>
+      <cc:Work>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/publicdomain/" />
+        <dc:publisher>
+          <cc:Agent
+             rdf:about="http://openclipart.org/">
+            <dc:title>Openclipart</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:title>Equilateral Triangle</dc:title>
+        <dc:date>2013-06-03T18:14:23</dc:date>
+        <dc:description>A simple diagram of an Equilateral Triangle, all internal angles are identical and all sides are of equal length.</dc:description>
+        <dc:source>http://openclipart.org/detail/178892/equilateral-triangle-by-gr8dan-178892</dc:source>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>GR8DAN</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>angle</rdf:li>
+            <rdf:li>degrees</rdf:li>
+            <rdf:li>equal</rdf:li>
+            <rdf:li>equilateral</rdf:li>
+            <rdf:li>lines</rdf:li>
+            <rdf:li>polygon</rdf:li>
+            <rdf:li>regular</rdf:li>
+            <rdf:li>simple</rdf:li>
+            <rdf:li>sixty</rdf:li>
+            <rdf:li>triangle</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/publicdomain/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <flowRoot
+     xml:space="preserve"
+     id="flowRoot3084"
+     style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+     transform="matrix(1.034913,0,0,0.96488152,161.10541,30.095752)"><flowRegion
+       id="flowRegion3086"><rect
+         id="rect3088"
+         width="119.94508"
+         height="81.13932"
+         x="81.13932"
+         y="409.2244" /></flowRegion><flowPara
+       id="flowPara3090">θ</flowPara></flowRoot>  <path
+     sodipodi:type="spiral"
+     style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+     id="path3092"
+     sodipodi:cx="154.34109"
+     sodipodi:cy="726.72607"
+     sodipodi:expansion="1"
+     sodipodi:revolution="2.7920568"
+     sodipodi:radius="41.338867"
+     sodipodi:argument="-16.955008"
+     sodipodi:t0="0.93532974"
+     d="m 187.37472,706.63134 c 8.81939,12.68936 9.15002,29.76635 1.36239,43.02542"
+     transform="matrix(0.77857928,-0.00555755,0.00518068,0.72589361,79.965244,-73.718817)" />
+  <rect
+     style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:2.56331468;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+     id="rect3864-4"
+     width="107.59344"
+     height="219.28946"
+     x="1711.8004"
+     y="-1755.0317"
+     transform="matrix(-1.0732804e-4,0.99999999,-0.47607598,0.87940415,0,0)"
+     ry="0" />
+  <path
+     id="path2997-4-5-9"
+     d="M 833.93744,169.03839 138.15119,275.22945"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000;stroke-width:2.03071785;stroke-linecap:round"
+     sodipodi:nodetypes="cc" />
+  <flowRoot
+     xml:space="preserve"
+     id="flowRoot2993"
+     style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+     transform="matrix(1.6926925,0,0,1.6928215,-9.1092719,-596.14278)"><flowRegion
+       id="flowRegion2995"><rect
+         id="rect2997"
+         width="65.053825"
+         height="66.46804"
+         x="487.90369"
+         y="600.62897" /></flowRegion><flowPara
+       id="flowPara2999">ϕ</flowPara></flowRoot>  <flowRoot
+     xml:space="preserve"
+     id="flowRoot3001"
+     style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+     transform="matrix(0.96209499,0,0,0.96216832,-27.904998,73.689833)"><flowRegion
+       id="flowRegion3003"><rect
+         id="rect3005"
+         width="80"
+         height="54"
+         x="906"
+         y="118.56" /></flowRegion><flowPara
+       id="flowPara3007">Δh</flowPara></flowRoot>  <path
+     style="fill:none;stroke:#000000;stroke-width:4.23757648;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:2;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#Arrow2Mstart);marker-end:url(#Arrow2Mend)"
+     d="m 52.296118,541.56 c 673.407762,0 673.407762,0 673.407762,0"
+     id="path4415"
+     inkscape:connector-curvature="0" />
+  <flowRoot
+     xml:space="preserve"
+     id="flowRoot5919"
+     style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+     transform="translate(106,12)"><flowRegion
+       id="flowRegion5921"><rect
+         id="rect5923"
+         width="242"
+         height="58"
+         x="234"
+         y="478.56" /></flowRegion><flowPara
+       id="flowPara5925">100 km</flowPara></flowRoot>  <path
+     sodipodi:type="arc"
+     style="fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:2;stroke-opacity:1;stroke-dasharray:none"
+     id="path5927"
+     sodipodi:cx="619.42554"
+     sodipodi:cy="432.33755"
+     sodipodi:rx="25.455845"
+     sodipodi:ry="25.455845"
+     d="m 644.88138,432.33755 a 25.455845,25.455845 0 1 1 -50.91169,0 25.455845,25.455845 0 1 1 50.91169,0 z"
+     transform="matrix(1.3348062,0,0,1.3348062,-152.83981,-160.66962)" />
+  <path
+     sodipodi:type="arc"
+     style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:4;stroke-miterlimit:2;stroke-opacity:1;stroke-dasharray:none"
+     id="path5935"
+     sodipodi:cx="472.34732"
+     sodipodi:cy="157.98013"
+     sodipodi:rx="2.8284271"
+     sodipodi:ry="2.8284271"
+     d="m 475.17575,157.98013 a 2.8284271,2.8284271 0 1 1 -5.65686,0 2.8284271,2.8284271 0 1 1 5.65686,0 z"
+     transform="matrix(0.81694174,0,0,0.81694174,288.69962,286.18512)" />
+</svg>

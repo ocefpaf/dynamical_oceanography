@@ -1,5 +1,5 @@
-1° lista de exercícios - Cinemática Unidimensional
-==================================================
+1° lista de exercícios -- Cinemática Unidimensional
+===================================================
 
 **Exercício 1)** Em jogos de hóquei no gelo, o time que estivesse perdendo
 podia trazer seu goleiro para o ataque para aumentar suas chances de marcar
@@ -120,8 +120,8 @@ Respostas:
 
 \newpage
 
-2° lista de exercícios - Cinemática Bidimensional
-=================================================
+2° lista de exercícios -- Cinemática Bidimensional
+==================================================
 
 **Exercício 1)** No tempo zero, uma partícula está em $x = 4,0$ m e $y = 3,0$ m
 e tem a velocidade $\vec{v}$ = (2,0 m s$^{-1}$)$\mathbf{\hat{i}}$ +
@@ -217,13 +217,14 @@ Respostas:
 10. (a) 0,97 s; (b) 4,2 m; (c) 12,7 m s$^{-1}$ a 70,1° no sentido horário com a horizontal
 11. (a) 2,47 s; (b) 15,3 m
 
+\newpage
+
+3° lista de exercícios -- Leis de Newton
+========================================
+
+Respostas:
+==========
+
 <!--
 pandoc -V geometry:"top=2.2cm, bottom=2.5cm, left=3cm, right=3cm" --latex-engine=xelatex --mathjax --smart --normalize --standalone --highlight-style=pygments --webtex --from markdown fismat_exercises.md --to latex --output fismat_exercises.pdf
 -->
-
-
-
-
-
-
-

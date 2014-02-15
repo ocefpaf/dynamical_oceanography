@@ -1,0 +1,390 @@
+% Title page.
+\title[Aula 01]{Oceanografia Física Dinâmica}
+\subtitle{Conceitos de Dinâmica de Fluidos Geofísicos}
+\author[Filipe Fernandes]{Filipe P. A. Fernandes}
+\institute[unimonte]{Centro Universitário Monte Serrat}
+\date[Fevereiro 2014]{17 de Fevereiro 2014}
+
+\logo{\includegraphics[scale=0.15]{../common/university_logo.png}}
+
+\begin{document}
+
+% The title page frame.
+\begin{frame}[plain]
+  \titlepage
+\end{frame}
+
+\section*{Outline}
+\begin{frame}
+\tableofcontents
+\end{frame}
+
+\section{Conceitos de Dinâmica de Fluidos Geofísicos}
+\begin{frame}
+  \frametitle{O que são feições dinâmicas?}
+  \begin{center}
+    \shadowbox{\includegraphics[scale=0.4]{./figures/brazil_amo_2014019.png}}
+  \end{center}
+  \tiny\hfill \url{http://visibleearth.nasa.gov/view.php?id=82968}
+\end{frame}
+
+
+\begin{frame}
+  \frametitle{Circulação Gerada pelo Vento}
+  \begin{center}
+  \movie[showcontrols=true]{\shadowbox{\phantom{\rule{8cm}{5cm}}}}
+  {./figures/Perpetual_Ocean_(2005-2007)_[1080p]-xusdWPuWAoU.mp4}
+  \end{center}
+\end{frame}
+
+
+\begin{frame}
+  \frametitle{Circulação Termohalina}
+  \begin{center}
+  \movie[showcontrols=true]{\shadowbox{\phantom{\rule{8cm}{5cm}}}}
+  {./figures/The_Thermohaline_Circulation_-_The_Great_Ocean_Conveyor_Belt-LkRQjTdTvFE.mp4}
+  \end{center}
+\end{frame}
+
+\begin{frame}
+\frametitle{Conservativa vs Não-conservativa}
+  \begin{block}{}
+    As equações que trataremos nesse curso possuem, em geral, duas formas:
+    "forma conservativa" e "forma não conservativa".
+  \end{block}
+
+  \begin{block}{}
+    A forma conservativa enfatiza a interpretação física das equações como leis
+    de conservação por um volume fixo no espaço.
+
+    A forma não conservativa enfatiza mudanças no estado do volume de controle
+    a medida que ele move com o fluido.
+  \end{block}
+\end{frame}
+
+\begin{frame}
+\frametitle{Leis de Newton}
+  \begin{itemize}[<+-| alert@+>]
+    \item Primeira Lei: Quando analisado sobre um referencial inercial, um
+    objeto está ou em repouso ou em velocidade constante a menos que uma força
+    aja sobre ele.
+
+    \item Segunda Lei: A aceleração de um objeto é diretamente proporcional a,
+    e na mesma direção, que a soma vetorial das forças que agem nesse objeto.
+    $F = ma$.
+
+    \item Terceira Lei: Para toda ação tem uma reação de mesma magnitude na
+    direção oposta.
+  \end{itemize}
+\end{frame}
+
+\subsection{Equação de Euler}
+\begin{frame}
+\frametitle{Equação de Euler}
+  \begin{block}{}
+    A equação de {\bf Euler}, em Dinâmica de Fluidos Geofísicos, é um conjunto de
+    equações  que governos fluidos invíscidos.
+  \end{block}
+
+  \begin{block}{}
+    As equações representam a conservação de massa (ou continuidade), momento
+    e energia.  Corresponde as equações de {\bf Navier–Stokes} com os termos de
+    viscosidade e condução de calor zero.
+  \end{block}
+\end{frame}
+
+\begin{frame}
+\frametitle{Equação de Euler}
+\[
+    {\partial \rho  \over \partial t}+\nabla \cdot (\rho {\mathbf  u})=0
+\]
+Onde:
+    \begin{itemize}
+      \item $\rho$ é a massa do fluído;
+      \item ${\mathbf  u}$ é o vetor velocidade (com as componentes $u$, $v$
+            e $w$).
+    \end{itemize}
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Equação de Navier–Stokes}
+\[
+\rho \Big(
+\underbrace{\frac{\partial \mathbf{u}}{\partial t}}_{
+\begin{smallmatrix}
+  \text{Aceleração}\\
+  \text{local}
+\end{smallmatrix}} +
+\underbrace{\mathbf{u} \cdot \nabla \mathbf{u}}_{
+\begin{smallmatrix}
+  \text{Aceleração} \\
+  \text{Advectiva}
+\end{smallmatrix}}\Big) =
+\underbrace{-\nabla p}_{
+\begin{smallmatrix}
+  \text{Gradiente de} \\
+  \text{pressão}
+\end{smallmatrix}} +
+\underbrace{\mu \nabla^2 \mathbf{v}}_{\text{Viscosidade}} +
+\underbrace{\mathbf{f}}_{
+\begin{smallmatrix}
+  \text{Forças} \\
+  \text{de} \\
+  \text{corpo}
+\end{smallmatrix}}
+\]
+Nota: A equação acima é válida apenas para fluidos Newtonianos
+não-compressíveis.
+\end{frame}
+
+\begin{frame}
+\frametitle{Equações do movimento (juntando tudo)}
+  \begin{itemize}[<+-| alert@+>]
+    \item vetorial: $\frac{D{\mathbf{u}}}{Dt} = -\frac{1}{\rho}\nabla{p} -2\mathbf{\Omega} \times \mathbf{u} + \mathbf{g}\hat{k} + \mathbf{Fr}$
+    \item x: $\frac{Du}{Dt} = fv - \frac{1}{\rho}\pd{p}{x} + \left(\pd{\tau^{xx}}{x} + \pd{\tau^{xy}}{y} + \pd{\tau^{xz}}{z}\right)$
+    \item y: $\frac{Dv}{Dt} = -fu - \frac{1}{\rho}\pd{p}{y} + \left(\pd{\tau^{xy}}{x} + \pd{\tau^{yy}}{y} + \pd{\tau^{yz}}{z}\right)$
+    \item z: $\frac{Dw}{Dt} = - \frac{1}{\rho}\pd{p}{z} - g + \left(\pd{\tau^{xz}}{x} + \pd{\tau^{yz}}{y} + \pd{\tau^{zz}}{z}\right)$
+    \item $\pd{u}{x} + \pd{v}{y} + \pd{w}{z} = 0$
+  \end{itemize}
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Dever de -- casa 01}
+    \begin{block}{}
+      \href{http://en.wikipedia.org/wiki/Euler_equations_(fluid_dynamics)}{Euler: \url{http://en.wikipedia.org/wiki/Euler_equations_(fluid_dynamics)}}
+    \end{block}
+
+    \begin{block}{}
+      \href{http://en.wikipedia.org/wiki/Navier-Stokes_equations}{Navier–Stokes: \url{http://en.wikipedia.org/wiki/Navier-Stokes_equations}}
+    \end{block}
+    {\scriptsize Note as formas cilíndricas e esféricas das mesmas equações.}
+    {\scriptsize * Digite no YouTube "Non-newtonian fluid"}
+\end{frame}
+
+\section{Coriolis}
+\begin{frame}
+  \frametitle{Quem tem medo da rotação da Terra desce agora!}
+  \begin{center}
+    \includegraphics[scale=0.6]{./figures/calvin_rotation.png}
+  \end{center}
+\end{frame}
+
+
+\begin{frame}
+  \frametitle{Mas será que ela gira mesmo?}
+  \begin{center}
+    \includegraphics[scale=0.4]{./figures/galileo_goes_to_jail.jpg}
+  \end{center}
+\end{frame}
+
+
+\begin{frame}
+  \frametitle{Trilha estelar 01}
+  \begin{center}
+    \includegraphics[scale=0.45]{./figures/NCPtreeLosada.jpg}
+%     http://apod.nasa.gov/apod/ap131023.html
+  \end{center}
+% North Celestial Pole at the center of all the star trail arcs recorded over a
+% period of nearly 2 hours as a series of 30 second long, consecutive exposures
+% on the night of October 5 near Almaden de la Plata, province of Seville, in
+% southern Spain. The axis of rotation leads to the center of the concentric
+% arcs in the night sky. For northern hemisphere the bright star Polaris is very
+% close to the North Celestial Pole and so makes the short bright trail in the
+% central gap between the leafy branches.
+\end{frame}
+
+
+\begin{frame}
+  \frametitle{Trilha estelar 02}
+  \begin{center}
+    \includegraphics[scale=0.45]{./figures/2007_09_14-orion-lq_vangorp1200.jpg}
+  \end{center}
+% Made on September 14 from Montlaux, France, this wide-angle view nicely shows
+% the stars near the celestial equator tracing nearly straight lines in
+% projection, while stars north and south of the equator, respectively, appear
+% to circle the north and south celestial poles. Featured are the stars of Orion
+% (right of center), brilliant Venus rising (left) as bright star Sirius rises
+% in the south (bottom center), and a polar orbiting Iridium satellite (upper
+% left).  This picture was constructed from 477 consecutive 30 second digital
+% exposures recorded over 4.3 hours.
+\end{frame}
+
+
+\begin{frame}
+  \frametitle{Trilha estelar 03}
+  \begin{center}
+%     http://apod.nasa.gov/apod/ap040708.html
+    \includegraphics[scale=4]{./figures/040523cruxa_seip_full.jpg}
+% Gradually change the focus of the camera lens during the exposure, and you
+% could end up with a dramatic picture like this one where the out-of-focus
+% portion of the trail shows off the star's color.  Crux, the Southern Cross.
+% Gacrux or gamma Crucis is the bright red giant star only 88 light-years
+% distant that forms the top of the Cross seen here near top center. Acrux, the
+% hot blue star at the bottom of the Cross is about 320 light-years distant.
+% Actually a binary star system, Acrux is the alpha star of the compact Southern
+% Cross and lies along a line pointing from Gacrux to the South Celestial Pole,
+% off the lower right edge of the picture. Adding a separate short exposure to
+% the end of the step-focussed trails to better show the positions of the stars
+% themselves. The dark night skies above Namibia.
+  \end{center}
+\end{frame}
+
+
+\begin{frame}
+  \frametitle{Trilha estelar 04}
+  \begin{center}
+  \movie[showcontrols=true]{\centerline{\includegraphics[scale=0.7]{./figures/hawaiian_starlight_rotatingstarfield-apod.png}}}
+  {./figures/hawaiian_starlight_rotatingstarfield-apod.flv}
+  \end{center}
+\end{frame}
+
+\begin{frame}
+  \frametitle{A Terra não gira apenas no próprio eixo}
+  \begin{center}
+    \includegraphics[scale=0.35]{./figures/image_0303_analemma0600ut_ayiomamitis_full.jpg}
+  \end{center}
+\end{frame}
+
+
+\begin{frame}
+  \frametitle{E o eixo não está onde gostaríamos...}
+  \begin{center}
+    \includegraphics[scale=0.7]{./figures/AxialTiltObliquity.png}
+%     http://upload.wikimedia.org/wikipedia/commons/6/61/AxialTiltObliquity.png
+  \end{center}
+\end{frame}
+
+
+\begin{frame}
+  \frametitle{Formulando tudo isso}
+  \begin{block}{Velocidades}
+    \[
+      \vec{u_{\mathbf{f}}} = \vec{u_{\mathbf{r}}} + \vec{\Omega} \times \vec{r}
+    \]
+  \end{block}
+
+  \begin{block}{Acelerações}
+    \[
+      \vec{a_{\mathbf{f}}} = \vec{a_{\mathbf{r}}} + 2 \vec{\Omega} \times
+      \vec{u_{\mathbf{r}}} - \Omega^2\vec{R}
+    \]
+  \end{block}
+\end{frame}
+
+
+\begin{frame}
+  \frametitle{Só nos interessa a componente vertical}
+  \begin{columns}
+    \begin{column}{0.5\textwidth}
+      \begin{itemize}
+        \item $\Omega_x = 0$
+        \item $\Omega_y = \Omega\cos\theta$
+        \item $\Omega_z = \Omega\sin\theta$
+      \end{itemize}
+    \end{column}
+    \begin{column}{0.5\textwidth}
+      \begin{center}
+        \includegraphics[scale=0.4]{./figures/coriolis_vertical.png}
+      \end{center}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+\begin{frame}
+  \frametitle{De onde chegamos a $f = 2\Omega\sin{\theta}$?}
+  \[
+    2\vec{\Omega} \times \vec{u} =
+    \begin{vmatrix}
+    \vec{i} & \vec{j}           & \vec{k}\\
+    0       & 2\Omega\cos\theta & 2\Omega\sin\theta\\
+    u       & v                 & w
+    \end{vmatrix}
+  \]
+  \pause
+  \[
+    2\vec{\Omega} \times \vec{u} =
+    2\Omega [\xcancel{\vec{i}(w\cos\theta} - v\sin\theta) +
+             \vec{j}u\sin\theta - \vec{k}u\cos\theta]
+  \]
+  \pause
+  \begin{itemize}
+    \item $(2\vec{\Omega} \times \vec{u})_x = -(2\Omega\sin\theta)v = -fv$
+    \item $(2\vec{\Omega} \times \vec{u})_y = (2\Omega\sin\theta)u = fu$
+    \item $(2\vec{\Omega} \times \vec{u})_z = \cancelto{*}{-(2\Omega\cos\theta)u}$
+  \end{itemize}
+\end{frame}
+
+
+\begin{frame}
+  \frametitle{23 horas, 56 minutos, 4.0916 segundos}
+  \begin{itemize}[<+-| alert@+>]
+    \item $\Omega = \dfrac{2\pi} {24 \times 60 \times 60} =
+           7,272 \times 10^{-5}$ rad s$^{-1}$
+    \item $\Omega^* = \dfrac{2\pi + 2\pi/360} {24 \times 60 \times 60} =
+           7,292 \times 10^{-5}$ rad s$^{-1}$
+  \end{itemize}
+  \pause
+  \small{* Esse é o $\Omega$ que devemos usar incluindo a rotação da Terra ao
+         redor do Sol.  Existem outros efeitos menores como o Movimento do
+         Sistema Solar na Galáxia e o Movimento de Galáxia no Universo.}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Alguns números}
+  \begin{itemize}[<+-| alert@+>]
+    \item $\Omega = 7,292 \times 10^{-5}$ rad s$^{-1}$
+    \item Máxima aceleração de Coriolis (nos polos):
+
+        $2\Omega \text{v} \sim 1,5 \times 10^{-4}\text{v}$
+
+        v = 10000 m s$^{-1}  \rightarrow 1,5$ m s$^{-1}$
+    \item $\dfrac{d\Omega}{dt} = 0$
+  \end{itemize}
+\end{frame}
+
+
+\begin{frame}
+  \frametitle{Onde foi parar $\Omega^2\vec{R}$?}
+
+  \begin{columns}
+    \begin{column}{0.5\textwidth}
+    \small{
+      Aceleração centrípeta no equador:
+      $\Omega^2\text{R}_{\text{e}}^{*} = 0,0338$ m s$^{-2}$
+
+      R$_{\text{equador}} -$ R$_{\text{polo}} \approx 21,4 \times 10^{3}$ m
+
+      g$_{\text{equador}} -$ g$_{\text{polo}} \approx -0,052$ m s$^{-2}$
+      }
+    \end{column}
+    \begin{column}{0.5\textwidth}
+      \begin{center}
+        \includegraphics[scale=0.6]{./figures/gravity_centrigugal_vectors.png}
+      \end{center}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+
+\begin{frame}
+  \frametitle{Dever de casa -- 02}
+  \begin{center}
+    \includegraphics[scale=0.55]{./figures/ocean_description.png}
+  \end{center}
+
+\scriptsize{
+
+\href{http://oceanmotion.org/html/resources/coriolis.htm}{Circulação Inercial: \url{http://oceanmotion.org/html/resources/coriolis.htm}}
+
+\href{http://www.britishpathe.com/video/gambling-with-gulf-stream-aka-gambling-on-the-gulf}{Corrente do Golfo: \url{http://www.britishpathe.com/video/gambling-with-gulf-stream-aka-gambling-on-the-gulf}}
+
+\href{http://esminfo.prenhall.com/science/geoanimations/animations/26_NinoNina.html}{ENSO: \url{http://esminfo.prenhall.com/science/geoanimations/animations/26_NinoNina.html}}
+
+}
+
+* Obs: Há também uma lista com exercícios práticos no portal!
+\end{frame}
+
+\end{document}

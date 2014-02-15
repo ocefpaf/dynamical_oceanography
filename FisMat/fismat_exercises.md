@@ -222,9 +222,123 @@ Respostas:
 3° lista de exercícios -- Leis de Newton
 ========================================
 
+**Exercício 1)** Um projétil de massa 1,80 $\times$ 10$^{-3}$ kg, movendo-se a
+500 m s$^{-1}$, atinge um tronco de a e penetra 6,00 cm na madeira antes de
+parar.
+* (a) Se a aceleração do projétil é constante, encontre a força (orientação inclusive) exercida pela madeira no projétil.
+* (b) Se a mesma força atuasse sobre o projétil, com a mesma velocidade no impacto, mas se ele tivesse a metade da massa, quanto ele penetraria na madeira?
+
+**Exercício 2)** Se você empurra um bloco cuja massa é m$_1$, sobre um chão sem
+atrito com uma força horizontal de magnitude $F_o$, o bloco tem uma aceleração
+de 12 m s$^{-2}$.  Se você empurra um bloco diferente, de massa m$_2$, com uma
+força horizontal de magnitude $F_o$, sua aceleração é 3,0 m s$^{-2}$.
+* (a) Que aceleração produzira uma força horizontal de magnitude $F_o$ sobre um bloco de massa m$_2$ – m$_1$?
+* (b) Que aceleração produzirá uma força horizontal de magnitude $F_o$ sobre um bloco de massa m$_2$ + m$_1$?
+
+**Exercício 3)** Um objeto de 4,0 kg é submetido a duas forças constantes,
+($\vec{F}_1$ = 2,0 N)$\mathbf{\hat{i}}$ - (3,0)$\mathbf{\hat{j}}$ e
+($\vec{F}_2$ = 4,0 N)$\mathbf{\hat{i}}$ - (11,0)$\mathbf{\hat{j}}$.  O objeto
+está em repouso na origem no tempo $t=0$.
+* (a) Qual é a aceleração do objeto?
+* (b) Qual é a sua velocidade no tempo $t=3,0$ s?
+* (c) Onde está o objeto no tempo $t=3,0$ s?
+
+**Exercício 4)** Para os sistemas das figuras abaixo, encontre as massas e as
+tensões desconhecidas.
+
+![](./figures/leis_newton_fig4.png "Sistemas.")
+
+**Exercício 5)** Uma força horizontal de 100 N empurra um bloco de 12 kg para
+cima, em um plano inclinado sem atrito que forma um ângulo de 25º com a
+horizontal.
+* (a) Qual é a força normal que o plano inclinado exerce sobre o bloco?
+* (b) Qual é a magnitude da aceleração do bloco?
+
+\newpage
+
+**Exercício 6)** Um bloco de 2,0 kg esta pendurado em uma escala de mola
+calibrada em Newtons que está presa no teto de um elevador.  Qual a leitura da
+escala quando
+* (a) o elevador está subindo com uma velocidade constante de 30 m s$^{-1}$;
+* (b) o elevador está descendo com uma velocidade constante de 30 m s$^{-1}$;
+* (c) o elevador está subindo a 20 m s$^{-1}$ e ganhando velocidade à taxa de 3,0 m s$^{-2}$?
+* (d) Suponha agora que, de $t=0$ até $t=5,0$ s, o elevador sobe com uma velocidade constante de 10 m s$^{-1}$.  Depois, sua velocidade é reduzida uniformemente até zero, durante os 4,0 s seguintes, de forma que ele esta em repouso em $t=9,0$ s.  Descreva a leitura de escala durante o intervalo $0 < t < 9,0$ s.
+
+![](./figures/leis_newton_fig6.png "Elevador.")
+
+
+**Exercício 7)** Uma caixa de massa m$_2$ = 3,5 kg está sobre uma estante
+horizontal sem atrito e presa por fios a caixas de massa m$_1$ = 1,5 kg e
+m3 = 2,5 kg, como mostra a figura.  As duas polias são sem atrito e sem massa.
+O sistema é largado do repouso.  Após a largada, encontre
+* (a) a aceleração de cada uma das caixas e
+* (b) a tensão em cada fio.
+
+![](./figures/leis_newton_fig7.png "Estante.")
+
+
+**Exercício 8)** Duas caixas de 100 kg são arrastadas sobre uma superfície
+horizontal sem atrito com uma aceleração constante de 1,00 m s$^{-2}$, como
+mostrado na figura.  Cada corda tem uma massa de 1,00 kg.  Encontre a magnitude
+da força $\vec{F}$ e a tensão nas cordas nos pontos A, B e C.
+
+![](./figures/leis_newton_fig8.png "Caixas.")
+
+\newpage
+
+**Exercício 9)** Durante uma apresentação teatral de Peter Pan, a atriz de
+50 kg que representa Peter Pan deve voar verticalmente (descendo).  Para
+acompanhar a música ela deve, a partir do repouso, ser baixada de uma distância
+de 3,2 m em 2,2 s com aceleração constante.  Nos bastidores, uma superfície
+lisa inclinada de 50º suporta um contrapeso de massa m, como mostrado na
+figura.   Mostre os cálculos que o operador deve fazer para encontrar
+* (a) a massa de contrapeso a ser usada e
+* (b) a tensão no fio.
+
+![](./figures/leis_newton_fig9.png "Peter Pan.")
+
+**Exercício 10)** Um bloco de 8,0 kg e outro de 10 kg, ligados por uma corda
+que passa sobre um encaixe sem atrito, deslizam sobre o plano inclinado sem
+atrito da figura.
+* (a) Encontre a aceleração dos blocos e a tensão na corda.
+* (b) Os dois blocos são substituídos por outros dois, de massa m$_1$ e m$_2$, de forma a não haver aceleração.  Informe o que for possível sobre essas duas massas.
+
+![](./figures/leis_newton_fig10.png "Blocos.")
+
+**Exercício 11)** Um bloco de 20 kg, com uma polia presa a ele, desliza ao
+longo de um trilho sem atrito.  Ele está conectado, por um fio sem massa, a um
+bloco de 5,0 kg, como mostra o arranjo da figura. Encontre
+
+* (a) a aceleração de cada bloco e
+* (b) a tensão no fio.
+
+![](./figures/leis_newton_fig11.png "Blocos 2.")
+
+**Exercício 12)** Se uma das massas da máquina de Atwood da figura é 1,2 kg,
+quanto deve valer a outra massa de forma a que o deslocamento de cada massa,
+durante o primeiro segundo após a largada, seja 0,30 m? Suponha uma polia sem
+massa e sem atrito e um fio sem massa.
+
+![](./figures/leis_newton_fig12.png "Atwood.")
+
+\newpage
+
 Respostas:
 ==========
+1) (a) -3750 N; (b) 3,00 cm
+2) (a) 4 m s$^{-2}$; (b) 2,4 m s$^{-2}$
+3) (a) $\vec{a}$ = (1,5 m s$^{-2}$)$\mathbf{\hat{i}}$ - (3,5 m s$^{-2}$)$\mathbf{\hat{j}}$ ; (b) $\vec{v}$ = (4,5 m s$^{-1}$)$\mathbf{\hat{i}}$ - (11 m s$^{-1}$)$\mathbf{\hat{j}}$; (c) $\vec{r}$ = (6,8 m)$\mathbf{\hat{i}}$ - (16 m)$\mathbf{\hat{j}}$
+
+4) (a) T$_1$ = 60 N, T$_2$ = 52 N e m = 5,3 kg; (b) T$_1$ = 46,2 N, T$_2$ = 46,2 N e m = 4,7 kg; (c) T$_1$ = T$_3$ = 34 N, T$_2$ = 58,9 N e m = 3,5 kg
+5) (a) 149 N; (b) 3,4 m s$^{-2}$
+6) (a) 19,6 N; (b) 19,6 N; (c) 25,6 N; (d) 19,6 N de 0 a 5 s e 14,6 N de 5 a 9 s
+7) (a) 1,3 m s$^{-2}$ e (b) T$_1$ = 16,7 N e T$_2$ = 21,3 N
+8) F = 202 N, TA = 100 N, T$_B$ = 101 N e T$_C$ = 201 N
+9) (a) m = 48 kg; (b) T = 424 N
+10) (a) 1,4 m s$^{-2}$ e T = 61,4 N; (b) $\dfrac{m_1}{m_2} = 1,19$
+11) (a) a$_20$ = 2,45 m s$^{-2}$ e a$_5$ = 4,9 m s$^{-2}$; (b) T = 25 N
+12) 1,06 kg ou 1,36 kg
 
 <!--
-pandoc -V geometry:"top=2.2cm, bottom=2.5cm, left=3cm, right=3cm" --latex-engine=xelatex --mathjax --smart --normalize --standalone --highlight-style=pygments --webtex --from markdown fismat_exercises.md --to latex --output fismat_exercises.pdf
+pandoc -H test_fig.sty -V geometry:"top=2.2cm, bottom=2.5cm, left=3cm, right=3cm" --latex-engine=xelatex --mathjax --smart --normalize --standalone --highlight-style=pygments --webtex --from markdown fismat_exercises.md --to latex --output fismat_exercises.pdf
 -->

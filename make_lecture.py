@@ -7,7 +7,7 @@
 # e-mail:   ocefpaf@gmail
 # web:      http://ocefpaf.github.io/
 # created:  20-Aug-2013
-# modified: Fri 14 Feb 2014 02:50:07 PM BRST
+# modified: Sat 15 Feb 2014 02:18:17 PM BRST
 #
 # obs: Uses latexmk, pdflatex adn pandoc.
 #
@@ -55,7 +55,7 @@ header = r"""
 \usepackage{amssymb,amsmath}
 
 \newcommand{\pd}[2]{\frac{\partial #1}{\partial #2}} % partial derivatives
-
+\renewcommand\mathfamilydefault{\rmdefault}
 \setbeamertemplate{blocks}[rounded][shadow=true]
 
 \usecolortheme[named=OliveGreen]{structure}

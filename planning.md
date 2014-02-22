@@ -5,7 +5,9 @@ date: '10-Fevereiro-2014'
 title: Cronograma
 ...
 
-<!-- pandoc --latex-engine=xelatex --mathjax --smart --normalize --standalone --highlight-style=pygments --webtex --from markdown lecture_plan.md --to latex --output lecture_plan.pdf -->
+<!--
+pandoc --latex-engine=xelatex --mathjax --smart --normalize --standalone --highlight-style=pygments --webtex --from markdown planning.md --to latex --output lecture_plan.pdf
+-->
 
 Plano de Aula
 =============

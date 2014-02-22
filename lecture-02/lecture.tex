@@ -1,5 +1,5 @@
 % Title page.
-\title[Aula 01]{Oceanografia Física Dinâmica}
+\title[Aula 02]{Oceanografia Física Dinâmica}
 \subtitle{Conceitos de Dinâmica de Fluidos Geofísicos}
 \author[Filipe Fernandes]{Filipe P. A. Fernandes}
 \institute[unimonte]{Centro Universitário Monte Serrat}
@@ -16,10 +16,101 @@
 
 \section*{Outline}
 \begin{frame}
+\frametitle{Índice}
 \tableofcontents
 \end{frame}
 
 \section{Conceitos de Dinâmica de Fluidos Geofísicos}
+\subsection{A Estrutura Geofísica do Oceano}
+
+\begin{frame}
+\frametitle{A Estrutura Geofísica do Oceano}
+  \begin{block}{}
+    Um elemento sólido tem um formato preferencial ao qual tende a retornar
+    quando da remoção de forças externas.
+  \end{block}
+\pause
+  \begin{block}{}
+    Um elemento fluido {\bf não} possui nenhum formato preferencial.
+  \end{block}
+\end{frame}
+
+\begin{frame}
+\frametitle{Oceanos}
+  \begin{block}{}
+    Geofísica pode ser definida como a ciência que estuda a física das
+    esferas que compõem o planeta terra (litosfera, atmosfera e hidrosfera)
+  \end{block}
+\pause
+  \begin{block}{}
+    O oceano é um fluido raso, estratificado e em rotação.
+  \end{block}
+\end{frame}
+
+\begin{frame}
+\frametitle{Geometria}
+  \begin{block}{Banheira}
+  \[
+    \dfrac{H_B}{L_B} = \dfrac{0.5}{1.5} \text{ Razão de aspecto de 1:3}
+  \]
+  \end{block}
+\pause
+  \begin{block}{Oceano}
+  \[
+    \dfrac{H_O}{L_O} = \dfrac{3\times10^3}{3\times10^6} \text{ Razão de aspecto de 1:1000}
+  \]
+  \end{block}
+\pause
+Qual seria $H_O$ caso $L_O = L_B$?
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Geometria -- Com relação à Terra}
+  \begin{block}{}
+  \[
+    \dfrac{H_O}{a} = \dfrac{3\times10^3}{6\times10^6} = 0.5\times10^{-6}
+  \]
+  \end{block}
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Adicionalmente...}
+... O oceano é:
+  \begin{itemize}[<+-| alert@+>]
+    \item estratificado;
+    \item em rotação;
+    \item com forçantes diversas.
+  \end{itemize}
+\end{frame}
+
+\subsection{Escalas}
+\begin{frame}
+\frametitle{Escalas}
+  \begin{itemize}[<+-| alert@+>]
+    \item Comprimento (L) $\rightarrow$ metro, m;
+    \item Massa (M) $\rightarrow$ (quilograma, kg)
+    \item Tempo (T) $\rightarrow$ (Segunda, s)
+    \item Temperatura (K ou T) $\rightarrow$ (graus Kelvin ou Celsius, K ou \textdegree{C})
+  \end{itemize}
+\pause
+Exemplos: $U = \dfrac{L}{T}$
+\pause
+
+Outras escalas importantes: $H, \rho_o, \Delta\rho$
+\end{frame}
+
+\begin{frame}
+\frametitle{Escalas}
+  \begin{center}
+    \shadowbox{\includegraphics[scale=0.6]{./figures/temporal_scales.png}}
+  \end{center}
+\pause
+Usaremos esses conceitos para descrever todas as feições dinâmicas que observamos
+nos oceanos.
+\end{frame}
+
 \begin{frame}
   \frametitle{O que são feições dinâmicas?}
   \begin{center}
@@ -62,6 +153,7 @@
   \end{block}
 \end{frame}
 
+\subsection{Leis de Newton}
 \begin{frame}
 \frametitle{Leis de Newton}
   \begin{itemize}[<+-| alert@+>]
@@ -106,7 +198,7 @@ Onde:
     \end{itemize}
 \end{frame}
 
-
+\subsection{Equação de Navier–Stokes}
 \begin{frame}
 \frametitle{Equação de Navier–Stokes}
 \[
@@ -126,7 +218,7 @@ Onde:
   \text{Gradiente de} \\
   \text{pressão}
 \end{smallmatrix}} +
-\underbrace{\mu \nabla^2 \mathbf{v}}_{\text{Viscosidade}} +
+\underbrace{\mu \nabla^2 \mathbf{u}}_{\text{Viscosidade}} +
 \underbrace{\mathbf{f}}_{
 \begin{smallmatrix}
   \text{Forças} \\
@@ -138,6 +230,7 @@ Nota: A equação acima é válida apenas para fluidos Newtonianos
 não-compressíveis.
 \end{frame}
 
+\subsection{Equações do movimento}
 \begin{frame}
 \frametitle{Equações do movimento (juntando tudo)}
   \begin{itemize}[<+-| alert@+>]
@@ -160,10 +253,12 @@ não-compressíveis.
       \href{http://en.wikipedia.org/wiki/Navier-Stokes_equations}{Navier–Stokes: \url{http://en.wikipedia.org/wiki/Navier-Stokes_equations}}
     \end{block}
     {\scriptsize Note as formas cilíndricas e esféricas das mesmas equações.}
+
     {\scriptsize * Digite no YouTube "Non-newtonian fluid"}
 \end{frame}
 
 \section{Coriolis}
+\subsection{A Terra gira (!?)}
 \begin{frame}
   \frametitle{Quem tem medo da rotação da Terra desce agora!}
   \begin{center}
@@ -240,6 +335,7 @@ não-compressíveis.
   \end{center}
 \end{frame}
 
+\subsection{Como ela gira?}
 \begin{frame}
   \frametitle{A Terra não gira apenas no próprio eixo}
   \begin{center}

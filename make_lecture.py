@@ -7,7 +7,7 @@
 # e-mail:   ocefpaf@gmail
 # web:      http://ocefpaf.github.io/
 # created:  20-Aug-2013
-# modified: Sat 15 Feb 2014 02:18:17 PM BRST
+# modified: Wed 19 Feb 2014 09:54:49 AM BRT
 #
 # obs: Uses latexmk, pdflatex adn pandoc.
 #
@@ -53,6 +53,7 @@ header = r"""
 \usepackage{multimedia}
 \usepackage[utf8]{inputenc}
 \usepackage{amssymb,amsmath}
+\usepackage{longtable,booktabs}
 
 \newcommand{\pd}[2]{\frac{\partial #1}{\partial #2}} % partial derivatives
 \renewcommand\mathfamilydefault{\rmdefault}
@@ -169,7 +170,7 @@ if __name__ == '__main__':
     DIR = os.path.split(DIRECTORY)[-1]
     COMP = args.get('--compile')
 
-    fname = '%s_OC_%s' % (TODAY, DIR)  # Output file names.
+    fname = '%s_%s' % (TODAY, DIR)  # Output file names.
 
     if COMP == 'slides':
         compile_tex('%s/lecture.tex' % DIRECTORY, d_type='slides')

@@ -7,7 +7,7 @@
 # e-mail:   ocefpaf@gmail
 # web:      http://ocefpaf.github.io/
 # created:  20-Aug-2013
-# modified: Wed 19 Feb 2014 09:54:49 AM BRT
+# modified: Sat 22 Feb 2014 05:20:10 PM BRT
 #
 # obs: Uses latexmk, pdflatex adn pandoc.
 #
@@ -127,7 +127,7 @@ def compile_tex(lecture, d_type):
         tex.writelines('%s\n%s\n%s\n' % (dcls.get(d_type), header, lecture))
 
     os.chdir(DIRECTORY)
-    output = '%s_%s' % (fname, d_type)
+    output = '%s_OD_%s' % (fname, d_type)
     cmd = ('/usr/bin/latexmk',
            '-pdf',
            '-latexoption=-interaction=batchmode',

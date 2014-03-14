@@ -339,6 +339,12 @@ Respostas:
 11) (a) a$_20$ = 2,45 m s$^{-2}$ e a$_5$ = 4,9 m s$^{-2}$; (b) T = 25 N
 12) 1,06 kg ou 1,36 kg
 
+
+\newpage
+
+4° lista de exercícios -- Aplicações Adicionais das Leis de Newton
+==================================================================
+
 <!--
 pandoc -H test_fig.sty -V geometry:"top=2.2cm, bottom=2.5cm, left=3cm, right=3cm" --latex-engine=xelatex --mathjax --smart --normalize --standalone --highlight-style=pygments --webtex --from markdown fismat_exercises.md --to latex --output fismat_exercises.pdf
 -->

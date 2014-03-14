@@ -1,0 +1,171 @@
+% Style.
+\documentclass[letterpaper,portuguese,12pt,pdftex]{exam}
+
+\usepackage{setspace}
+\usepackage{lineno}
+% \usepackage[left=2.5cm,top=3cm,right=2.5cm]{geometry}
+\usepackage[left=1.5cm,right=2.5cm,top=2cm,bottom=2cm]{geometry}
+
+% Portuguese.
+\usepackage[brazil]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[utf8x]{inputenc}
+\usepackage{textcomp}
+
+% Font.
+\usepackage{lmodern}
+
+% Figures.
+\usepackage{epsf,epsfig}
+
+% Bibtex and extras.
+\usepackage{natbib}
+\usepackage{url}
+\usepackage[bookmarks=false,colorlinks=true,urlcolor={green},linkcolor={green},pdfstartview={XYZ null null 1.22}]{hyperref}
+
+% Math.
+\usepackage{cancel}
+\usepackage{commath}
+\usepackage{mathtools}
+\usepackage{amssymb,amsmath}
+\everymath{\displaystyle}
+
+\newcommand{\sen}{\operatorname{sen}}
+
+% Exam.
+\addpoints
+% \printanswers  % \noprintanswers
+\usepackage{color}
+\definecolor{SolutionColor}{rgb}{0.8,0.9,1}
+\shadedsolutions
+\renewcommand{\solutiontitle}{\noindent\textbf{Solução:}\par\noindent}
+\pagestyle{headandfoot}
+\footer{}{Página \thepage\ de \numpages}{}
+\boxedpoints
+\pointsinrightmargin
+\pointpoints{ponto}{pontos}
+\hqword{Questão}
+\hpword{Pontos}
+\hsword{Nota}
+% \qformat{\textbf{Question\thequestion}\quad(\thepoints)\hfill}
+
+% PDF metadata.
+\pdfinfo{% hyperref overrides this
+  /Title    (Oceanografia Física Dinâmica)
+  /Author   (Filipe Fernandes)
+  /Creator  (Filipe Fernandes)
+  /Producer (Filipe Fernandes)
+  /Subject  (exercises)
+  /Keywords (prova, oceanografia)
+}
+
+% Front page.
+\title{Oceanografia Física Dinâmica}
+\author{Prof. Filipe Fernandes}
+\date{24-Feb-2014}
+
+% Header and footer.
+\pagestyle{headandfoot}
+\runningheadrule
+\firstpageheader{Exercícios de Matemática}{Oceanografia Dinâmica}{24 de Fevereiro, 2014}
+\runningheader{Oceanografia Dinâmica}
+{Exercício de Matemática, Página \thepage\ de \numpages}
+{24 de Fevereiro, 2014}
+\firstpagefooter{}{}{}
+\runningfooter{}{}{}
+
+
+\begin{document}
+\maketitle
+\doublespacing
+
+\begin{center}
+\fbox{\fbox{\parbox{5.5in}{
+Esse Exercício incluí \numquestions\ questões.  O número total de pontos é \numpoints.
+
+Responda as questões no espaço disponível logo abaixo.  Se o espaço
+não for suficiente continue na parte de trás da folha.}}}
+\end{center}
+\vspace{0.1in}
+\makebox[\textwidth]{Nome e número de matrícula:\enspace\hrulefill}
+\vspace{0.2in}
+
+\begin{questions}
+
+% (1.)
+\question[1]
+Considere três vetores $\vec{A}$, $\vec{B}$ e $\vec{C}$.  Demonstre que:
+\[
+  \vec{A} \cdot \left( \vec{B} \times \vec{C} \right) = \vec{B} \cdot \left( \vec{C} \times \vec{A} \right)
+\]
+
+\makeemptybox{7cm}
+
+% (2.)
+\question
+Considere a seguinte equação diferencial ordinária:
+\[
+  \dod[2]{}{t} - 4x = 0
+\]
+
+\begin{parts}
+  \part[\half]  % (a.)
+  Qual a ordem da equação?
+  \fillwithlines{1cm}
+
+  \part[\half]  % (b.)
+  Encontre a solução geral.
+  \makeemptybox{7cm}
+
+  \part[1] % (c.)
+  Considere que $x(t=0) = 1$ e que $x$ deve ser {\bf finito} em
+  $t \rightarrow \infty$. Nesse caso, encontre a solução particular.
+  \makeemptybox{7cm}
+\end{parts}
+
+% (3.)
+\question
+Considere a seguinte equação diferencial ordinária:
+\[
+  \dod[2]{}{t} + 4x = 0
+\]
+\begin{parts}
+  \part[1]  % (a.)
+  Encontre a solução geral.
+  \makeemptybox{7cm}
+
+  \part[1] % (b.)
+  Considere que $x(t=0) = 1$ e que $x\left( t=\frac{\pi}{4} \right) = 1$. Nesse caso,
+  encontre a solução particular.
+  \makeemptybox{7cm}
+\end{parts}
+
+% (4.)
+\question[1]
+Defina {\bf Volume Material}.
+\makeemptybox{12cm}
+
+% (5.)
+\question[2]
+Expanda em série de Taylor (apenas os cinco primeiros termos) a função
+$\sen{\theta}$ em torno de $\theta_o$.  Quais são os termos lineares.
+\makeemptybox{12cm}
+
+% (6.)
+\question[2]
+Considere a equação de Navier-Stokes em um referencial não-inercial (ou seja,
+girante):
+\[
+  \dpd{\vec{u}}{t} + \vec{u} \cdot \nabla \vec{u} + 2\vec{\Omega} \times \vec{u} = -\dfrac{\nabla p}{\rho} + \dfrac{\mu}{\rho}\nabla^2\vec{u} + \left( g + \Omega^2R \right)\vec{k}
+\]
+
+Identifique cada termo e diga se é linear ou não-linear.
+
+\makeemptybox{12cm}
+
+\begin{center}
+\gradetable[h][questions]
+\end{center}
+
+\end{questions}
+\end{document}

@@ -52,8 +52,8 @@ Bibliografia complementar:
 Aulas:
 ------
 | Aula | Data          | Conteúdo       | Lista/Prova   |
-|:----:|:--------------|:---------------| -------------:|
-| 00   | 2014-02-03    | Tópicos 1-3    |               |
+|:----:|:--------------|:---------------|--------------:|
+| 00   | 2014-02-03    | Sem aula       |               |
 | 01   | 2014-02-10    | Tópicos 1-3    |               |
 | 02   | 2014-02-17    | Tópico 4       |               |
 | 03   | 2014-02-24    | Tópico 5       |               |
@@ -62,7 +62,7 @@ Aulas:
 | 06   | 2014-03-24    | Tópico 8       |               |
 | 07   | 2014-03-31    | Tópico 9       |               |
 | 08   | 2014-04-07    | Tópico 1-9     | Revisão P1    |
-| 00   | 2014-04-14    | Tópico 1-9     | P1            |
+| 09   | 2014-04-14    | Tópico 1-9     | P1            |
 | 10   | 2014-04-28    | Tópico 10      |               |
 | 11   | 2014-05-05    | Tópico 11      |               |
 | 12   | 2014-05-12    | Tópico 12      |               |
@@ -75,6 +75,7 @@ Aulas:
 
 Tópicos:
 --------
+0.  Sem aula para aulas veteranos;
 1.  Conceitos preliminares: vetores e escalares;
 2.  produto escalar e vetorial;
 3.  o operador “Del”, gradiente, divergente, rotacional e laplaciano.

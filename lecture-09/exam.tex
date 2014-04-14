@@ -1,0 +1,269 @@
+% Style.
+\documentclass[letterpaper,portuguese,12pt,pdftex]{exam}
+
+\usepackage{setspace}
+\usepackage{lineno}
+\usepackage[left=2.5cm,top=3cm,right=2.5cm]{geometry}
+
+% Portuguese.
+\usepackage[brazil]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[utf8x]{inputenc}
+\usepackage{textcomp}
+\usepackage{commath}
+
+% Font.
+\usepackage{lmodern}
+
+% Figures.
+\usepackage{epsf,epsfig}
+
+% Bibtex and extras.
+\usepackage{natbib}
+\usepackage{url}
+\usepackage[bookmarks=false,colorlinks=true,urlcolor={green},linkcolor={green},pdfstartview={XYZ null null 1.22}]{hyperref}
+
+% Math.
+\usepackage{amssymb,amsmath}
+\usepackage{mathtools}
+\usepackage[makeroom]{cancel}
+\everymath{\displaystyle}
+
+% Exam.
+\addpoints
+% \printanswers
+\usepackage{color}
+\definecolor{SolutionColor}{rgb}{0.8,0.9,1}
+\shadedsolutions
+\renewcommand{\solutiontitle}{\noindent\textbf{Solução:}\par\noindent}
+\pagestyle{headandfoot}
+\footer{}{Página \thepage\ de \numpages}{}
+\boxedpoints
+\pointsinrightmargin
+\pointpoints{ponto}{pontos}
+\hqword{Questão}
+\hpword{Pontos}
+\hsword{Nota}
+% \qformat{\textbf{Question\thequestion}\quad(\thepoints)\hfill}
+
+% PDF metadata.
+\pdfinfo{% hyperref overrides this
+  /Title    (Prova 01 -- Oceanografia Física Dinâmica)
+  /Author   (Filipe Fernandes)
+  /Creator  (Filipe Fernandes)
+  /Producer (Filipe Fernandes)
+  /Subject  (prova)
+  /Keywords (prova, oceanografia)
+}
+
+% Front page.
+\title{Prova 01 -- Oceanografia Física Dinâmica}
+\author{Prof. Filipe Fernandes}
+\date{14-Abril-2014}
+
+\begin{document}
+\maketitle
+\doublespacing
+
+\hbox to \textwidth{Nome e número de matrícula:\enspace\hrulefill}
+\vspace{0.5cm}
+
+\begin{minipage}{.8\textwidth} % 35
+Esse exame incluí \numquestions\ questões. O número total de pontos é \numpoints.
+\vspace{1cm}
+{\small
+\begin{itemize}
+  \item Coloque seu nome em todas as folhas e numere as mesma colocando o
+            número total de folhas. (Ex.: 1/4, 2/4, 3/4 e 4/4.)
+  \item Coloque suas respostas apenas na folha de respostas (pode usar
+            as folhas da prova como rascunho).
+  \item Essa prova segue o Acordo Ortográfico da Língua Portuguesa de 1990 (em
+            vigor no início de 2009).  Por isso erros de ortografia e gramática
+            serão descontados da sua nota final.
+  \item A prova deve ser feita individualmente e sem consulta.
+  \item Use caneta (preta ou azul) para responder as questões – qualquer questão
+            respondida à lápis não será considerada na hora da correção.
+  \item Leia atentamente todas as questões: a interpretação faz parte da prova.
+            Dúvidas serão esclarecidas apenas após o término da mesma.
+  \item Desligue e guarde o celular.  Celulares à vista serão recolhidos!
+\end{itemize}
+}
+\end{minipage}
+
+\newpage
+
+\begin{questions}
+  \question
+  Responda as questões abaixo utilizando as diversas ``versões'' e/ou
+  componentes da equação do movimento (ou conservação de momento) fornecidas
+  nos itens (a), (b) e (c).
+  \begin{align*}
+  \text{(a) } \dod{w}{t} &= -\dfrac{1}{\rho}\dfrac{\partial p}{\partial z} - g + \nu\nabla^2w\\
+  \text{(b) } \dfrac{\Dif \mathbf{u}}{\Dif t} &= -\dfrac{1}{\rho}\nabla{p} - 2\mathbf{\Omega} \times \mathbf{u} + \mathbf{g} + \mathbf{\mathbf{F_R}}\\
+  \text{(c) } \dpd{u}{t} + u\dpd{u}{x} + u\dpd{v}{y} + u\dpd{w}{z} &= -\dfrac{1}{\rho}\dpd{p}{x} -fv + \text{A}_{\text{h}}\left( \dpd[2]{u}{x} + \dpd[2]{u}{y} + \dpd[2]{u}{z} \right)
+  \end{align*}
+
+  \begin{parts}
+  \part[3]
+  Abra o termo $\dfrac{\Dif \mathbf{u}}{\Dif t}$ e explique todos os sub-termos
+  que você escrever.
+  \begin{solution}
+  \begin{alignat*}{4}
+    & \dpd{u}{t} &&+ u\dpd{u}{x} &&+ u\dpd{v}{y} &&+ u\dpd{w}{z} \\
+    & \dpd{v}{t} &&+ v\dpd{u}{x} &&+ v\dpd{v}{y} &&+ v\dpd{w}{z} \\
+    & \dpd{w}{t} &&+ w\dpd{u}{x} &&+ w\dpd{v}{y} &&+ w\dpd{w}{z}
+  \end{alignat*}
+  $\dpd{}{t} \rightarrow$ Ac. local., e $\mathbf{u}\nabla\mathbf{u}$ ac.
+  advectiva.
+  \end{solution}
+
+
+  \part[3]
+  Identifique qual(is) componente(s) do sistema de coordenada cartesiano está
+  representado em cada equação.
+  \begin{solution}
+    \begin{itemize}
+      \item[(a)] Componente vertical ($z$).
+      \item[(b)] Forma vetorial ($x$, $y$ e $z$).
+      \item[(c)] Componente horizontal ($x$).
+    \end{itemize}
+  \end{solution}
+
+  \part[3]
+  Identifique e explique os termos de aceleração dos itens (a), (b) e (c).
+  \begin{solution}
+    \begin{itemize}
+      \item[(a)] Aceleração total na vertical.
+      \item[(b)] Aceleração total do fluido.
+      \item[(c)] Aceleração local + advectiva na horizontal ($x$).
+    \end{itemize}
+  \end{solution}
+
+
+    \part[3]
+    Encontre os termos de atrito de (a) e (c) e explique as diferenças e
+    semelhanças entre eles.
+    \begin{solution}
+    O item (a) usa o coeficiente de viscosidade cinemática $\nu$ e a forma
+    compacta $\nabla^2$ (laplaciano) como operador em $w$, já o item (b)
+    ``abre'' o operador laplaciano e utiliza o coeficiente de viscosidade
+    turbulenta na horizontal A$_\text{h}$.
+    \end{solution}
+
+  \part[3]
+  Cancele os termos não-lineares de (c), faça a aceleração local igual a zero
+  (sistema não acelerado), e explique o balanço encontrado.
+  \begin{solution}
+  \begin{align*}
+  \cancelto{0}{\dpd{u}{t}} + \cancelto{\text{não-linear}}{\dpd{u}{x} + u\dpd{v}{y} + u\dpd{w}{z}} &= -\dfrac{1}{\rho}\dpd{p}{x} -fv + \cancelto{\text{não=linear}}{\text{A}_{\text{h}}\left( \dpd[2]{u}{x} + \dpd[2]{u}{y} + \dpd[2]{u}{z} \right)} \\
+  0 &= -\dfrac{1}{\rho}\dpd{p}{x} -fv \\
+  fv &= -\dfrac{1}{f\rho}\dpd{p}{x}
+  \end{align*}
+  Coriolis e Força Gradiente = Pressão (balanço geostrófico).
+  \end{solution}
+
+  \end{parts}
+
+  \question[5]
+  Imagine que o seu {\it Jaeger} recebeu a missão de caçar um {\it Kaiju} nas
+  fossa das Marianas, borda do Pacífico próximo a Guam.  Faça o cálculo da
+  pressão hidrostática para convencer o seu comandante que o seu robô gigante
+  não vai aguentar a pressão!
+
+  Considere um estado não-acelerado na coordenada vertical $z$ e atrito
+  total do fluido como praticamente nulo.  (Para seus cálculos use gravidade de
+  9,8 m s$^{-2}$, densidade média de 1025 kg m$^{-3}$ e profundidade de 11 km.)
+
+  \begin{solution}
+    \begin{align*}
+      \cancelto{0}{\dfrac{dw}{dt}} &= -\dfrac{1}{\rho}\dfrac{\partial p}{\partial z} - g + \cancelto{0}{\nu\nabla^2w}\\
+      \dfrac{1}{\rho}\dfrac{\partial p}{\partial z} &=  -g \\
+      \partial p &= -g\rho\partial z \\
+      \int^{-z}_{0}\partial p &= -g\rho\int^{-z}_{0}\partial z \\
+      p(-z) -\cancelto{0}{p(0)} &= -g\rho(-z-0) \\
+      p(-z) &= \rho g z \\
+      p(-11000) &= 1025 \times 9.8 \times 11000 \\
+      p(-11000) &= 110495000.0 \text{ Pa ou } 11049,5 \text{ dbar}
+    \end{align*}
+  \end{solution}
+
+  \question[5]
+  Explique a frase: ``Coriolis não é realmente uma força em si, apenas uma
+  questão de como você olha para ela.''
+
+  \begin{solution}
+    Coriolis é uma força fictícia que usamos para ``corrigir'' um sistema de
+    coordena não-inercial, ou seja, que move juntamente com o sistema de
+    coordenada usados.
+  \end{solution}
+
+  \question[2\half]
+  Conhecemos a equação: \( \dpd{u}{x} + \dpd{v}{y} + \dpd{w}{z} = 0\) como
+  equação da continuidade.  Mas vimos em sala de aula que ela também representa
+  uma conservação similar à conservação de sal e calor.  Explique o que ela
+  representa e dê um exemplo de sua aplicação.
+
+  \begin{solution}
+    Representa a conservação de massa para oceanos homogêneos ($\rho =$
+    constante).  Qualquer explicação como ressurgência e/ou Stommel \& Arons
+    está OK.
+  \end{solution}
+
+
+  \begin{minipage}[b]{0.85\linewidth}
+    \question[2\half]
+    A figura ao lado mostra um esquema dos tensores (componentes do atrito) em
+    um elemento infinitesimal de fluido.  Imagine os seguintes cenários: (a) um
+    vento aplicado apenas na superfície do oceano; (b) atrito interno nas
+    camadas do fluido, e (c) atrito com o fundo.  Qual(is) $\tau_{ij}$ você
+    usaria nos cenários (a), (b) e (c)?
+  \end{minipage}
+  \hfill
+  \begin{minipage}[b]{0.35\linewidth}
+    \includegraphics[height=5\baselineskip]{./figures/stresses.png}
+  \end{minipage}
+
+  \begin{solution}
+    \begin{itemize}
+      \item[(a)] $\tau_{zx}$ e $\tau_{zy}$.
+      \item[(b)] Todos!
+      \item[(c)] Novamente $\tau_{zx}$ e $\tau_{zy}$.
+    \end{itemize}
+
+  \end{solution}
+
+
+  \question[5]
+  Comente sobre cada uma das forças abaixo.  Diga se é: de superfície
+  (ou contato) ou de corpo (volume), fictícia ou ``real'', primária (que causa)
+  movimento ou secundária (oriunda do movimente). (Dica: organize a sua resposta
+  em uma tabela.)
+
+  {\bf Forças}: Gradiente de Pressão, Coriolis, Atrito, Gravidade e Centrífuga.
+  \begin{solution}
+    \begin{tabular}{l|l|l|l}
+        & Contato/Volume & Real/Fictícia & Primária/Secundária \\
+    \hline
+    FGP & Volume         & Real          & Primária \\
+    FC  & Volume         & Fictícia      & Secundária \\
+    FA  & Contato        & Real          & Secundária ou Primária* \\
+    FG  & Volume         & Real          & Primária \\
+    FCF & Volume         & Fictícia      & Secundária \\
+    \hline
+    \end{tabular}
+
+    * Quando o atrito é entre as camadas de água ou com o fundo ela é uma força
+    secundária, mas quando é com o vento ela é primária.
+  \end{solution}
+
+  \bonusquestion[5]
+  Pergunta bônus.
+
+  Dê pelo menos um exemplo para fenômenos de pequena, meso e larga escala.
+  Discorra sobre a sua escolha explicando como ele se encaixa na classificação
+  acima. ({\bf Atenção}!!! A pergunta bônus será considerada somente se a
+  resposta estiver 100\% correta!)
+
+\end{questions}
+
+\end{document}

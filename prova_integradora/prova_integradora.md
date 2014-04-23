@@ -9,25 +9,26 @@ title: Prova Integradora
 ## Questões de Oceanografia Física Dinâmica
 
 1. Usando o seu conhecimento sobre Geostrofia indique o sentido dos
-   giros/correntes nos pontos **A** e **B** e  trace a rota mais eficiente (ou
-   seja, aproveitando as correntes oceânicas) saindo do ponto vermelho em
-   direção ao ponto verde.
+   giros e/ou correntes nos pontos **A** e **B** e trace a rota mais
+   eficiente (ou seja, aproveitando as correntes oceânicas) saindo do ponto
+   vermelho em direção ao ponto verde.
 
 ![Corrente do Golfo.](./figures/gs_02jun13.png)
 
 
 \newpage
 
-2. Observe o anel (ou vórtice) da Corrente Norte do Brasil (NBC Ring) na
+2. Observe o anel (ou vórtice) da Corrente Norte do Brasil (*NBC Ring*) na
    figura abaixo e responda:
 
-    a) Porque a concentração de Clorofila é baixa no Centro do Vórtice (Dica:
-       Faça um esquema da temperatura superficial esperada.)?
+    a) Porque a concentração de Clorofila é baixa no centro do vórtice?
+       (Dica: Faça uma análise da temperatura superficial esperada para alta e
+        baixa concentração de Clorofila.)
 
-    b) Como seria o Gradiente de Pressão entre um ponto da borda até o centro
-       do Vórtice?
+    b) Como seria o **gradiente de pressão** entre um ponto da borda (alta
+       concentração Cla) até o centro (baixa de concentração Cla) do vórtice?
 
-    c) Porque há uma aumento na concentração de Clorofila mais ao Norte
+    c) Porque há uma aumento na concentração de clorofila mais ao norte
        ($\sim 10^{\circ}$ N)
 
 ![Corrente Norte do Brasil.](figures/NBC.png)

@@ -1,0 +1,4 @@
+Aula de quadro
+==============
+Análise de escalas e números adimensionais.
+Correntes sem atrito: movimento geostrófico.

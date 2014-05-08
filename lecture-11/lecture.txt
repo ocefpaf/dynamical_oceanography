@@ -1,0 +1,3 @@
+Aula de quadro
+==============
+Correntes sem atrito: movimento geostrófico.

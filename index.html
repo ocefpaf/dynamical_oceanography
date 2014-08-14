@@ -1,0 +1,241 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Dynamical oceanography by ocefpaf</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="javascripts/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1 class="header">Dynamical oceanography</h1>
+        <p class="header">Dynamical Oceanography lectures</p>
+
+        <ul>
+          <li class="download"><a class="buttons" href="https://github.com/ocefpaf/dynamical_oceanography/zipball/master">Download ZIP</a></li>
+          <li class="download"><a class="buttons" href="https://github.com/ocefpaf/dynamical_oceanography/tarball/master">Download TAR</a></li>
+          <li><a class="buttons github" href="https://github.com/ocefpaf/dynamical_oceanography">View On GitHub</a></li>
+        </ul>
+
+        <p class="header">This project is maintained by <a class="header name" href="https://github.com/ocefpaf">ocefpaf</a></p>
+
+
+      </header>
+      <section>
+        <h1>
+<a name="curso-de-oceanografia-f%C3%ADsica-din%C3%A2mica-lecionado-na-unimonte-no-primeiro-semestre-de-2014" class="anchor" href="#curso-de-oceanografia-f%C3%ADsica-din%C3%A2mica-lecionado-na-unimonte-no-primeiro-semestre-de-2014"><span class="octicon octicon-link"></span></a>Curso de Oceanografia Física Dinâmica lecionado na unimonte no primeiro semestre de 2014.</h1>
+
+<h2>
+<a name="reposit%C3%B3rios-com-aulas-slides-notas-e-exerc%C3%ADcios-para-oceanografia-f%C3%ADsica-din%C3%A2mica" class="anchor" href="#reposit%C3%B3rios-com-aulas-slides-notas-e-exerc%C3%ADcios-para-oceanografia-f%C3%ADsica-din%C3%A2mica"><span class="octicon octicon-link"></span></a>Repositórios com aulas, slides, notas e exercícios para Oceanografia Física Dinâmica</h2>
+
+<p>~ Filipe Fernandes ~</p>
+
+<p>Para compilar as aulas use o script <code>make_lecture.py</code></p>
+
+<div class="highlight highlight-python"><pre><span class="n">Make</span> <span class="n">lecture</span> <span class="n">slides</span><span class="p">,</span> <span class="n">handout</span> <span class="ow">and</span> <span class="n">homework</span><span class="o">.</span>
+
+<span class="n">Usage</span><span class="p">:</span>
+    <span class="n">make_lecture</span> <span class="p">(</span><span class="n">DIR</span><span class="p">)</span> <span class="p">[</span><span class="o">--</span><span class="nb">compile</span><span class="o">=</span><span class="n">DOC</span><span class="p">]</span>
+    <span class="n">make_lecture</span> <span class="p">(</span><span class="o">-</span><span class="n">h</span> <span class="o">|</span> <span class="o">--</span><span class="n">help</span> <span class="o">|</span> <span class="o">--</span><span class="n">version</span><span class="p">)</span>
+
+<span class="n">Examples</span><span class="p">:</span>
+    <span class="n">make_lecture</span> <span class="n">Aula_01</span> <span class="o">--</span><span class="nb">compile</span><span class="o">=</span><span class="n">slides</span>
+    <span class="n">make_lecture</span> <span class="n">Aula_01</span> <span class="o">--</span><span class="nb">compile</span><span class="o">=</span><span class="n">handout</span>
+    <span class="n">make_lecture</span> <span class="n">Aula_01</span> <span class="o">--</span><span class="nb">compile</span><span class="o">=</span><span class="n">homework</span>
+    <span class="n">make_lecture</span> <span class="n">Aula_01</span> <span class="o">--</span><span class="nb">compile</span><span class="o">=</span><span class="nb">all</span>
+
+<span class="n">Arguments</span><span class="p">:</span>
+  <span class="n">DIR</span>      <span class="n">Lecture</span> <span class="n">directory</span><span class="o">.</span>
+
+<span class="n">Options</span><span class="p">:</span>
+  <span class="o">-</span><span class="n">c</span> <span class="o">--</span><span class="nb">compile</span><span class="o">=</span><span class="n">DOC</span>   <span class="n">slides</span><span class="p">,</span> <span class="n">handout</span><span class="p">,</span> <span class="n">homework</span> <span class="ow">or</span> <span class="nb">all</span> <span class="p">[</span><span class="n">default</span><span class="p">:</span> <span class="n">slides</span><span class="p">]</span>
+  <span class="o">--</span><span class="n">version</span>   <span class="n">Show</span> <span class="n">version</span><span class="o">.</span>
+  <span class="o">---</span><span class="n">help</span>     <span class="n">Show</span> <span class="n">this</span> <span class="n">screen</span><span class="o">.</span>
+</pre></div>
+
+<h3>
+<a name="1-plano-de-aula" class="anchor" href="#1-plano-de-aula"><span class="octicon octicon-link"></span></a>1. Plano de Aula</h3>
+
+<p>Disciplina: Oceanografia Descritiva (Curso: Oceanografia / Ciclo/mod. 1/1B)</p>
+
+<p>Professor: Filipe Fernandes</p>
+
+<p>Turno: Matutino</p>
+
+<p>Semestre: 2º -- 2013</p>
+
+<p>Turma: OCE1BM-VMA</p>
+
+<h4>
+<a name="ementa" class="anchor" href="#ementa"><span class="octicon octicon-link"></span></a>Ementa:</h4>
+
+<p>Introdução à Oceanografia Física. Conceitos, estrutura e características gerais
+dos oceanos.</p>
+
+<h4>
+<a name="bibliografia-b%C3%A1sica" class="anchor" href="#bibliografia-b%C3%A1sica"><span class="octicon octicon-link"></span></a>Bibliografia básica:</h4>
+
+<ul>
+<li>GARRISON, Tom; MIYAJI, Cíntia (Trad.). Fundamentos de oceanografia. São Paulo: Cengage Learning, 2009. 426 p. ISBN 9788522106776.</li>
+<li>MIRANDA, L. B., CASTRO, B. M., KJERFVE, B. 2002. Princípios de Oceanografia Física de Estuários. 1ª. ed. São Paulo : Edusp, 414p.</li>
+<li>SVERDRUP, K. A., Duxbury A. B., Duxbury, A. C. 2006. Fundamentals of Oceanography. McGraw Hill, 5th edition. Número de Chamada: 551.46 S968f 2006.</li>
+</ul><h4>
+<a name="bibliografia-complementar" class="anchor" href="#bibliografia-complementar"><span class="octicon octicon-link"></span></a>Bibliografia complementar:</h4>
+
+<ul>
+<li>STEWART, R. H. 2002. Introduction to Physical Oceanography. Department of Oceanography. Texas A. M. University.</li>
+<li>SOUZA, Maria Cristina de Arruda. A Corrente do Brasil ao largo de Santos: medições diretas. 2000. 169p. Dissertação (mestrado). Instituto Oceanográfico. USP. Disponível em: <a href="http://www.teses.usp.br/teses/disponiveis/21/21132/tde-10092003-094250/pt-br.php">http://www.teses.usp.br/teses/disponiveis/21/21132/tde-10092003-094250/pt-br.php</a>
+</li>
+<li>The Open University. 1989. Ocean Circulation, Pergamon Press, 2nd edition.</li>
+<li>TIPLER, Paul Allen.  Física para cientistas e engenheiros.  4. ed. Rio de Janeiro:  LTC,  2006. v.1.</li>
+<li>TOMCZAK, Matthias.  Physical oceanography.   Australia  The Flinders University of South Australia,  2002. 1 CD-ROM:  son., color  Disponível em: <a href="http://www.es.flinders.edu.au/%7Emattom/regoc/pdfversion.html">http://www.es.flinders.edu.au/~mattom/regoc/pdfversion.html</a>.</li>
+</ul><h3>
+<a name="cronograma" class="anchor" href="#cronograma"><span class="octicon octicon-link"></span></a>Cronograma</h3>
+
+<table>
+<thead><tr>
+<th align="center">Aula</th>
+<th align="left">Data</th>
+<th align="left">Conteúdo</th>
+<th align="right">Lista/Prova</th>
+</tr></thead>
+<tbody>
+<tr>
+<td align="center">01</td>
+<td align="left">2013-08-09</td>
+<td align="left">Introdução à Oceanografia Física 1</td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="center">02</td>
+<td align="left">2013-08-16</td>
+<td align="left">Introdução à Oceanografia Física 2</td>
+<td align="right">Lista 1</td>
+</tr>
+<tr>
+<td align="center">03</td>
+<td align="left">2013-08-23</td>
+<td align="left">Dimensões e formas dos oceanos 1</td>
+<td align="right">Lista 2</td>
+</tr>
+<tr>
+<td align="center">04</td>
+<td align="left">2013-08-30</td>
+<td align="left">Dimensões e formas dos oceanos 2</td>
+<td align="right">Lista 3</td>
+</tr>
+<tr>
+<td align="center">05</td>
+<td align="left">2013-09-06</td>
+<td align="left">Propriedades físicas da água do mar 1</td>
+<td align="right">Lista 4</td>
+</tr>
+<tr>
+<td align="center">06</td>
+<td align="left">2013-09-13</td>
+<td align="left">Propriedades físicas da água do mar 2</td>
+<td align="right">Lista 5</td>
+</tr>
+<tr>
+<td align="center">07</td>
+<td align="left">2013-09-20</td>
+<td align="left">Distribuição espacial e temporais 1</td>
+<td align="right">Lista 6</td>
+</tr>
+<tr>
+<td align="center">08</td>
+<td align="left">2013-09-27</td>
+<td align="left">Distribuição espacial e temporais 2</td>
+<td align="right">Lista 7</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="left">2013-10-04</td>
+<td align="left"></td>
+<td align="right">Prova 1</td>
+</tr>
+<tr>
+<td align="center">11</td>
+<td align="left">2013-10-11</td>
+<td align="left">Leis de conservação 1</td>
+<td align="right">Revisão Prova 1</td>
+</tr>
+<tr>
+<td align="center">12</td>
+<td align="left">2013-10-18</td>
+<td align="left">Leis de conservação 2</td>
+<td align="right">Lista 8</td>
+</tr>
+<tr>
+<td align="center">13</td>
+<td align="left">2013-10-25</td>
+<td align="left">Circulação e massas d'água 1</td>
+<td align="right">Lista 9</td>
+</tr>
+<tr>
+<td align="center">14</td>
+<td align="left">2013-11-01</td>
+<td align="left">Circulação e massas d'água 2</td>
+<td align="right">Lista 10</td>
+</tr>
+<tr>
+<td align="center">15</td>
+<td align="left">2013-11-08</td>
+<td align="left">Oc. costeira e estuarina 1</td>
+<td align="right">Análise de dados</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="left">2013-11-15</td>
+<td align="left"></td>
+<td align="right">Feriado</td>
+</tr>
+<tr>
+<td align="center">16</td>
+<td align="left">2013-11-22</td>
+<td align="left">Oc. costeira e estuarina 2</td>
+<td align="right">Lista 11</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="left">2013-11-29</td>
+<td align="left"></td>
+<td align="right">Seminário</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="left">2013-12-06</td>
+<td align="left"></td>
+<td align="right">Prova 2</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="left">2013-12-13</td>
+<td align="left"></td>
+<td align="right">Revisão</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="left">2013-12-20</td>
+<td align="left"></td>
+<td align="right">Prova Alternativa</td>
+</tr>
+</tbody>
+</table>
+      </section>
+      <footer>
+        <p><small>Hosted on <a href="http://pages.github.com">GitHub Pages</a> using the Dinky theme</small></p>
+      </footer>
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+		
+  </body>
+</html>
